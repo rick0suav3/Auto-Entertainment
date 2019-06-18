@@ -4,8 +4,7 @@
 }
 
 body{    
-    background: linear-gradient(180deg, rgb(77, 75, 75), red) no-repeat;
-    background-size: 1500% 1500%;
+    background: linear-gradient(180deg, rgb(77, 75, 75), red) no-repeat;    
     height: 100%;
     width: 100%;
 }
@@ -17,13 +16,17 @@ body{
     border-bottom-style: solid white;
     text-align: left;
     padding-left: 30px;
-    position: relative;
+    position: relative;    
 }
 
 h1{
     font-family: 'Pacifico', cursive;
     color: red;
-    letter-spacing: 3px;
+    letter-spacing: 3px;    
+}
+
+.underline{
+    border-bottom: 3px solid royalblue;    
 }
 
 h3.entertainment{
@@ -36,7 +39,7 @@ h3.entertainment{
     width: 60%;
     margin: auto;
     border: 5px solid red;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .carousel-slide{
