@@ -1,11 +1,23 @@
 *{
     padding: 0;
-    margin: 0;    
+    margin: 0;
+    box-sizing: border-box;    
 }
 
-.logo-container{
-    background-color:black;
-    padding: 20px;        
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    min-height: 8vh;
+    background: #5d4954
+}
+
+.nav-menu{    
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    min-height: 8vh;
+    background: black;
 }
 
 .logo-container h1{
@@ -15,22 +27,21 @@
     width: 182px;         
     height: 40px;        
     text-align: center;
-    padding-left: 3px;    
+    padding-left: 3px;
+    padding-bottom: 3px;    
 }
 
-.logo-container h6{
-    color: royalblue;
-    font-weight: 10px;
-    padding-top: 0px;
-    height: 15px;
+.logo-container hr{
+    border-top: 2px solid royalblue;   
 }
 
 .logo-container h3{
-    color: white;
+    color: red;
     font-family: 'Voltaire', sans-serif;    
     width: 195px;
     height: 20px;        
     letter-spacing: 7px;    
     text-transform: uppercase;
     align-items: baseline;
+    padding-top: 3px;
 }
