@@ -4,20 +4,8 @@
     box-sizing: border-box;    
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    min-height: 8vh;
-    background: #5d4954
-}
-
-.nav-menu{    
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    min-height: 8vh;
-    background: black;
+.logo-container{
+    background-color: grey;
 }
 
 .logo-container h1{
@@ -32,16 +20,42 @@ nav{
 }
 
 .logo-container hr{
-    border-top: 2px solid royalblue;   
+    border: 1px solid royalblue;
+    width: 195px;
 }
 
 .logo-container h3{
-    color: red;
+    color:white;    
     font-family: 'Voltaire', sans-serif;    
-    width: 195px;
-    height: 20px;        
+    width: 190px;
+    height: 30px;        
     letter-spacing: 7px;    
     text-transform: uppercase;
     align-items: baseline;
     padding-top: 3px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    min-height: 8vh;
+    background: #5d4954
+}
+
+.nav-menu-container{
+    width: 800px;    
+    background-color: red;    
+}
+
+.nav-menu-links{        
+    display: flex;
+    justify-content: right;
+    width: 30px;    
+    align-content: center;
+    min-height: 8vh;
+    color: whitesmoke;
+    padding-top: 27px;    
+    font-family: 'Voltaire', sans-serif;    
 }
