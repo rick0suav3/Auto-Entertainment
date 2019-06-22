@@ -4,8 +4,18 @@
     box-sizing: border-box;    
 }
 
+body{
+    background: grey;
+}
+
+.top-header{
+    display: flex;
+    background: grey;
+}
+
 .logo-container{
-    background-color: grey;
+    background: transparent;
+    padding: 5px 200px 5px 25px;
 }
 
 .logo-container h1{
@@ -15,7 +25,6 @@
     width: 182px;         
     height: 40px;        
     text-align: center;
-    padding-left: 3px;
     padding-bottom: 3px;    
 }
 
@@ -31,31 +40,79 @@
     height: 30px;        
     letter-spacing: 7px;    
     text-transform: uppercase;
-    align-items: baseline;
     padding-top: 3px;
+}
+
+.menu-container{
+    width: 100%;
+}
+
+.menu-container ul{
+    width: 100%;
+}
+
+.menu-container ul li{
+    width: 100%;
+    list-style: none;
+    padding-top: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu-container ul li a{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-links{        
+    display: flex;
+    width: 30px;
+    color: white;
+    padding-top: 27px;    
+    font-family: 'Voltaire', sans-serif;
+}
+
+.burger{
+    display: none;
+    padding-top: 47px;
+}
+
+.burger div{
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 5px;
     
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    min-height: 8vh;
-    background: #5d4954
+@media screen and (max-width:1024px){
+    .menu-links{
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+    }
 }
 
-.nav-menu-container{
-    width: 800px;    
-    background-color: red;    
+@media screen and (max-width:768px){
+    body{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: red;
+        align-items: center;
+    }
 }
 
-.nav-menu-links{        
+.carousel-container{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-slide{
     display: flex;
-    justify-content: right;
-    width: 30px;    
-    align-content: center;
-    min-height: 8vh;
-    color: whitesmoke;
-    padding-top: 27px;    
-    font-family: 'Voltaire', sans-serif;    
+    width: 1000%;
+    height: 500px;
 }
