@@ -8,10 +8,6 @@ nav{
     position: relative;
 }
 
-body{
-    background: -webkit-linear-gradient(red, black   );
-}
-
 .top-header{
     display: flex;
     background: grey;
@@ -26,7 +22,7 @@ body{
     color: rgb(204, 47, 47);
     font-family: 'Pacifico', cursive;
     letter-spacing: 2.3px;    
-    width: 182px;         
+    width: 100%;/*width: 182px;         */
     height: 40px;        
     text-align: center;
     padding-bottom: 3px;    
@@ -102,24 +98,22 @@ body{
 @media screen and (max-width:768px){
     body{
         position: absolute;
-        right: 0px;
-        height: 92vh;
-        top: 8vh;
         background-color: gray;
         align-items: center;
     }
     .burger{
-        display: block;
-        padding-right: 4px;
+        display: inline-block;
+        padding-right: 0px;
+        padding-top: 25px;
         background-color: brown;
     }
     .menu-container{
         display: none;
+        height: 30px;
     }
-    .logo-container{
-        justify-content: space-around;
-        align-content: center;
 
+    .logo-container{
+        padding-left: 25%;
     }
 }
 
