@@ -11,11 +11,15 @@ nav{
 .top-header{
     display: flex;
     background: rgb(66, 66, 66);
+    height: 100px;
+    
 }
 
-.logo-container{
+.logo-container{    
     background: transparent;
-    padding: 5px 200px 5px 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
 }
 
 .logo-container h1{
@@ -24,8 +28,7 @@ nav{
     letter-spacing: 2.3px;    
     width: 100%;/*width: 182px;         */
     height: 40px;        
-    text-align: center;
-    padding-bottom: 3px;    
+    text-align: center;    
 }
 
 .logo-container hr{
@@ -43,20 +46,23 @@ nav{
     padding-top: 3px;
 }
 
-.menu-container{
-    width: 100%;
+.menu-container{   
+    width: 100%;    
 }
 
 .menu-container ul{
-    width: 100%;
+    width: 100%;    
 }
 
 .menu-container ul li{
-    width: 100%;
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
     list-style: none;
-    padding-top: 25px;
+    /*padding-top: 25px;*/
     text-decoration: none;
     text-transform: uppercase;
+    
 }
 
 .menu-container ul li a{
@@ -65,12 +71,14 @@ nav{
     text-decoration: none;
 }
 
-.menu-links{        
-    display: flex;
+.menu-links{      
+    display: inline-flex;
     width: 30px;
     color: white;
     padding-top: 27px;    
     font-family: 'Voltaire', sans-serif;
+    align-content: right;
+    align-items: right;
 }
 
 .burger{
@@ -86,26 +94,27 @@ nav{
     margin: 6px;    
 }
 
-@media screen and (max-width:1024px){
+
+
+/*@media screen and (max-width:1024px){
     .menu-links{
         display: flex;
         justify-content: space-around;
         width: 60%;
-        background-color:gray;
+        background: rgb(66, 66, 66);
     }
 }
 
 @media screen and (max-width:768px){
     body{
         position: absolute;
-        background-color: gray;
+        background: rgb(66, 66, 66);
         align-items: center;
     }
     .burger{
         display: inline-block;
         padding-right: 0px;
-        padding-top: 25px;
-        background-color: brown;
+        padding-top: 25px;        
     }
     .menu-container{
         display: none;
@@ -117,9 +126,32 @@ nav{
     }
 }
 
+@media screen and (max-width:695px){
+    body{
+        position: absolute;
+        background: rgb(66, 66, 66);
+        align-items: center;
+    }
+    .burger{
+        display: none;
+        padding-right: 0px;
+        padding-top: 25px;        
+    }
+    .menu-container{
+        display: none;
+        height: 30px;
+        background-color: red;
+    }
+
+    .logo-container{
+        padding-left: 25%;
+        background-color: red;
+    }    
+}
+
 .carousel-container{
     display: block;
     width: 100%;
     margin: auto;
     overflow: hidden;
-}
+}*/
