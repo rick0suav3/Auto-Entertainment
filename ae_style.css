@@ -14,7 +14,7 @@ body{
 
 .top-header{
     display: flex;
-    background: grey;
+    background: rgb(66, 66, 66);
 }
 
 .logo-container{
