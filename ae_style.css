@@ -12,13 +12,13 @@ nav{
     display: flex;
     background: rgb(66, 66, 66);
     height: 100px;
-    
 }
 
 .logo-container{    
     background: transparent;
     padding-top: 15px;
     padding-bottom: 15px;
+    padding-left: 40px;
     position: relative;
 }
 
@@ -47,22 +47,24 @@ nav{
 }
 
 .menu-container{   
-    width: 100%;    
+    width: 100%;  
+    position: relative;
+    padding-left: 50px;
 }
 
 .menu-container ul{
-    width: 100%;    
+    width: 100%;  
+    position: relative;
+    padding-inline: 0px;   
 }
 
 .menu-container ul li{
-    width: 120px;
+    width: 100%;
     margin: 15px;
-    padding: 15px;
+    padding: 0px;
     list-style: none;
-    /*padding-top: 25px;*/
     text-decoration: none;
     text-transform: uppercase;
-    
 }
 
 .menu-container ul li a{
@@ -89,12 +91,10 @@ nav{
 
 .burger div{
     width: 30px;
-    height: 2px;
-    background-color: white;
+    height: 3px;
+    background-color: lightgray;
     margin: 6px;    
 }
-
-
 
 /*@media screen and (max-width:1024px){
     .menu-links{
@@ -103,50 +103,32 @@ nav{
         width: 60%;
         background: rgb(66, 66, 66);
     }
-}
+}*/
 
-@media screen and (max-width:768px){
+@media screen and (max-width:778px){
     body{
-        position: absolute;
         background: rgb(66, 66, 66);
         align-items: center;
     }
     .burger{
+        width: 100%;
         display: inline-block;
-        padding-right: 0px;
-        padding-top: 25px;        
+        padding-top: 40px;
+        padding-left: 25%;
     }
     .menu-container{
         display: none;
-        height: 30px;
     }
 
     .logo-container{
         padding-left: 25%;
+        position: relative;
     }
-}
-
-@media screen and (max-width:695px){
-    body{
-        position: absolute;
-        background: rgb(66, 66, 66);
-        align-items: center;
-    }
-    .burger{
-        display: none;
+    .logo-container h1{
+        text-align: center;
         padding-right: 0px;
-        padding-top: 25px;        
+        display: block;
     }
-    .menu-container{
-        display: none;
-        height: 30px;
-        background-color: red;
-    }
-
-    .logo-container{
-        padding-left: 25%;
-        background-color: red;
-    }    
 }
 
 .carousel-container{
@@ -154,4 +136,4 @@ nav{
     width: 100%;
     margin: auto;
     overflow: hidden;
-}*/
+}
