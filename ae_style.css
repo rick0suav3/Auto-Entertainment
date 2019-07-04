@@ -55,9 +55,11 @@ nav{
 }
 
 .menu-container ul{
+    display: inline-flex;
+    list-style: none;
     width: 100%;  
     position: relative;
-    padding-inline: 0px;   
+    /*padding-inline: 0px;   */
 }
 
 .menu-container ul li{
@@ -83,6 +85,35 @@ nav{
     font-family: 'Voltaire', sans-serif;
     align-content: right;
     align-items: right;
+}
+
+.active, .menu-links li:hover{
+    background: rgb(162, 166, 170);
+    border-radius: 3px;
+}
+
+.services-submenu{
+    display: none;    
+}
+
+.menu-container ul li:hover, .services-submenu{
+    display: block;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-container ul li:hover, .services-submenu ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu-container ul li:hover, .services-submenu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
 }
 
 /*^^^^^^^^^^^^^^^^^^^^PC***LapTop***Header^^^^^^^^^^^^^^^^^^^^*/
