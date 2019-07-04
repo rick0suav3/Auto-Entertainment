@@ -102,11 +102,7 @@ nav{
     margin: 6px;    
 }
 
-<<<<<<< HEAD
-@media screen and (max-width:778px){
-=======
 @media screen and (max-width: 795px){
->>>>>>> eb6335e651b59a6b93236223009b7259faa1d4ab
     body{
         background: rgb(66, 66, 66);
         align-items: center;
