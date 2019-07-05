@@ -1,22 +1,23 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
 /**************PC***LapTop***Header****************/
 
-nav{
+nav {
     position: relative;
+    justify-content: space-around;
 }
 
-.top-header{
+.top-header {
     display: flex;
     background: rgb(66, 66, 66);
     height: 100px;
 }
 
-.logo-container{    
+.logo-container {
     background: transparent;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -24,45 +25,45 @@ nav{
     position: relative;
 }
 
-.logo-container h1{
+.logo-container h1 {
     color: rgb(204, 47, 47);
     font-family: 'Pacifico', cursive;
-    letter-spacing: 2.3px;    
-    width: 100%;/*width: 182px;         */
-    height: 40px;        
-    text-align: center;    
+    letter-spacing: 2.3px;
+    width: 100%;
+    /*width: 182px;         */
+    height: 40px;
+    text-align: center;
 }
 
-.logo-container hr{
+.logo-container hr {
     border: 1px solid royalblue;
     width: 195px;
 }
 
-.logo-container h3{
-    color:white;    
-    font-family: 'Voltaire', sans-serif;    
+.logo-container h3 {
+    color: white;
+    font-family: 'Voltaire', sans-serif;
     width: 190px;
-    height: 30px;        
-    letter-spacing: 7px;    
+    height: 30px;
+    letter-spacing: 7px;
     text-transform: uppercase;
     padding-top: 3px;
 }
 
-.menu-container{   
-    width: 100%;  
+.menu-container {
+    width: 100%;
     position: relative;
     padding-left: 50px;
 }
 
-.menu-container ul{
+.menu-container ul {
     display: inline-flex;
     list-style: none;
-    width: 100%;  
+    width: 100%;
     position: relative;
-    /*padding-inline: 0px;   */
 }
 
-.menu-container ul li{
+.menu-container ul li {
     width: 100%;
     margin: 15px;
     padding: 0px;
@@ -71,29 +72,41 @@ nav{
     text-transform: uppercase;
 }
 
-.menu-container ul li a{
+.menu-container ul li a {
     width: 100%;
     color: white;
     text-decoration: none;
 }
 
-.menu-links{      
-    display: inline-flex;
+.main-menu {
+    align-items: center;
     width: 30px;
     color: white;
-    padding-top: 27px;    
+    padding-top: 21px;
     font-family: 'Voltaire', sans-serif;
-    align-content: right;
-    align-items: right;
 }
 
+.main-menu li {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.main-menu li:hover {
+    background-color: rgb(167, 164, 164);
+    height: 30px;
+}
+
+/*+++++++CODE TAKEN FROM YT VID+++++++
 .active, .menu-links li:hover{
     background: rgb(162, 166, 170);
     border-radius: 3px;
 }
 
 .services-submenu{
-    display: none;    
+    display: none;   
 }
 
 .menu-container ul li:hover, .services-submenu{
@@ -114,49 +127,49 @@ nav{
     background: transparent;
     border-radius: 0;
     text-align: left;
-}
+}++++++++CODE TAKEN FROM YT VID+++++++++*/
 
 /*^^^^^^^^^^^^^^^^^^^^PC***LapTop***Header^^^^^^^^^^^^^^^^^^^^*/
 
 /**************Header***Tablets***Mobile****************/
 
-.burger{
+.burger {
     display: none;
     /*padding-top: 47px;*/
     align-items: center
 }
 
-.burger div{
+.burger div {
     width: 30px;
     height: 3px;
     background-color: lightgray;
-    margin: 6px;    
+    margin: 6px;
 }
 
-@media screen and (max-width: 795px){
-    body{
+@media screen and (max-width: 795px) {
+    body {
         background: rgb(66, 66, 66);
         align-items: center;
     }
 
-    .burger{
+    .burger {
         width: 100%;
         display: inline-block;
         position: absolute;
         padding-top: 40px;
-        padding-left: 85%;        
+        padding-left: 85%;
     }
 
-    .menu-container{
+    .menu-container {
         display: none;
     }
 
-    .logo-container{
+    .logo-container {
         padding-left: 30%;
         position: relative;
     }
 
-    .logo-container h1{
+    .logo-container h1 {
         text-align: center;
         padding-right: 0px;
         display: block;
@@ -165,9 +178,8 @@ nav{
 
 /**************Header***Tablets***Mobile****************/
 
-.carousel-container{
+.carousel-container {
     display: block;
-    width: 100%;
     overflow: hidden;
     align-content: center;
     background-color: rgb(66, 66, 66);
