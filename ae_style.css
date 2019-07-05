@@ -79,6 +79,7 @@ nav {
 }
 
 .main-menu {
+
     align-items: center;
     width: 30px;
     color: white;
@@ -88,7 +89,6 @@ nav {
 
 .main-menu li {
     height: 30px;
-    display: flex;
     align-items: center;
     text-align: center;
     border-radius: 5px;
@@ -98,6 +98,39 @@ nav {
     background-color: rgb(167, 164, 164);
     height: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*+++++++CODE TAKEN FROM YT VID+++++++
 .active, .menu-links li:hover{
@@ -132,7 +165,6 @@ nav {
 /*^^^^^^^^^^^^^^^^^^^^PC***LapTop***Header^^^^^^^^^^^^^^^^^^^^*/
 
 /**************Header***Tablets***Mobile****************/
-
 .burger {
     display: none;
     /*padding-top: 47px;*/
@@ -177,10 +209,3 @@ nav {
 }
 
 /**************Header***Tablets***Mobile****************/
-
-.carousel-container {
-    display: block;
-    overflow: hidden;
-    align-content: center;
-    background-color: rgb(66, 66, 66);
-}
