@@ -90,6 +90,7 @@ nav{
 .active, .menu-links li:hover{
     background: rgb(162, 166, 170);
     border-radius: 3px;
+    height: 26px;
 }
 
 .services-submenu{
@@ -100,20 +101,21 @@ nav{
     display: block;
     margin-top: 15px;
     margin-left: -15px;
+    height: 26px;
 }
 
 .menu-container ul li:hover, .services-submenu ul{
     display: block;
     margin: 10px;
+    height: 26px;
 }
 
 .menu-container ul li:hover, .services-submenu ul li{
     width: 150px;
     padding: 10px;
-    border-bottom: 1px dotted #fff;
     background: transparent;
     border-radius: 0;
-    text-align: left;
+    text-align: center;
 }
 
 /*^^^^^^^^^^^^^^^^^^^^PC***LapTop***Header^^^^^^^^^^^^^^^^^^^^*/
