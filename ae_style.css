@@ -1,58 +1,57 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
 /**************PC***LapTop***Header****************/
 
-nav{
-    position: relative;
-    background:gray;
-}
-
-.top-header{
+.top-header {
     display: flex;
-    height: 100px;
+    background-color: gray;
 }
 
 /*====================LOGO=BEGIN====================*/
-.logo-container{   
+
+.logo-container {
     background: transparent;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 40px;
-    position: relative;
-}
-
-.logo-container h1{
-    color: rgb(204, 47, 47);
-    font-family: 'Pacifico', cursive;
-    letter-spacing: 2.3px;    
-    width: 100%;/*width: 182px;         */
-    height: 35px;
     padding-left: 30px;
 }
 
-.logo-container hr{
-    border: 1px solid royalblue;
-    width: 195px;
-    padding-top: 1px;
+.logo-container h1 {
+    color: rgb(204, 47, 47);
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2.3px;
+    width: 100%;
+    padding-left: 30px;
+    padding-bottom: 1px;
 }
 
-.logo-container h3{
-    color:white;    
-    font-family: 'Voltaire', sans-serif;    
-    width: 190px;
-    height: 30px;        
-    letter-spacing: 7px;    
-    text-transform: uppercase;
-    padding-top: 3px;
+.logo-container hr {
+    border: 1.5px solid royalblue;
+    color: royalblue;
+    height: 1px;
+    width: 200px;
+    padding-left: 50px;
 }
+
+.logo-container h3 {
+    color: white;
+    font-family: 'Voltaire', sans-serif;
+    width: 190px;
+    height: 30px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    padding-top: 6px;
+    padding-left: 19px;
+}
+
 /*=====================LOGO=END=====================*/
 
 /*==================NAV=MENU=START==================*/
-.top-header ul{
+.top-header ul {
     font-size: 20px;
     list-style: none;
     color: whitesmoke;
@@ -62,25 +61,25 @@ nav{
     padding-left: 15px;
 }
 
-.top-header ul li{
+.top-header ul li {
     width: 120px;
     margin: 15px;
     padding: 15px;
 }
 
-.svc-sub-men ul li{
+.svc-sub-men ul li {
     display: block;
     background-color: lightgray;
     width: 120px;
 }
 
-.top-header ul li a{
+.top-header ul li a {
     text-decoration: none;
     color: white;
     font-family: 'Voltaire', sans-serif;
 }
 
-.top-header ul li:hover{
+.top-header ul li:hover {
     background-color: lightgray;
 }
 
@@ -88,41 +87,41 @@ nav{
 
 /**************Header***Tablets***Mobile****************/
 
-.burger{
+.burger {
     display: none;
     /*padding-top: 47px;*/
     align-items: center;
 }
 
-.burger div{
+.burger div {
     width: 30px;
     height: 3px;
     background-color: lightgray;
-    margin: 6px;    
+    margin: 6px;
 }
 
-@media screen and (max-width: 795px){
-    body{
+@media screen and (max-width: 795px) {
+    body {
         background: rgb(66, 66, 66);
         align-items: center;
     }
 
-    .burger{
+    .burger {
         display: inline-block;
         position: relative;
-        padding-left: 85%;        
+        padding-left: 85%;
     }
 
-    .top-header{
+    .top-header {
         display: none;
     }
 
-    .logo-container{
+    .logo-container {
         padding-left: 30%;
         position: relative;
     }
 
-    .logo-container h1{
+    .logo-container h1 {
         padding-left: 30px;
         padding-right: 0px;
         display: block;
@@ -131,7 +130,7 @@ nav{
 
 /**************Header***Tablets***Mobile****************/
 
-.carousel-container{
+.carousel-container {
     display: block;
     width: 100%;
     overflow: hidden;
