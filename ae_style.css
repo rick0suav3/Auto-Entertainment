@@ -5,52 +5,51 @@
 }
 
 /**************PC***LapTop***Header****************/
-
-.top-header {
+header{
     display: flex;
     background-color: gray;
-    text-align: center;
 }
 
-.top-header img{
-    height: 70px;
-    
-}
-
-/*==================NAV=MENU=START==================*/
-.top-header ul {
-    font-size: 20px;
-    list-style: none;
-    color: whitesmoke;
+.logo_container {
     display: flex;
-    text-align: center;
-    padding-top: 10px;
-    padding-left: 15px;
+    flex-direction: column;
 }
 
-.top-header ul li {
-    width: 120px;
-    margin: 15px;
-    padding: 15px;
+.logo_container h1{
+    font-family: 'Pacifico', sans-serif;
+    color: red;
+    border-bottom: blue 10px;
 }
 
-.svc-sub-men ul li {
-    display: block;
-    background-color: lightgray;
-    width: 120px;
-}
-
-.top-header ul li a {
-    text-decoration: none;
-    color: white;
+.logo_container h3{
     font-family: 'Voltaire', sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-left: 0;
+    padding-left: 0;
+    border-top: blue 1px;
 }
+/*==================NAV=MENU=START==================*/
 
-.top-header ul li:hover {
-    background-color: lightgray;
-}
 
 /*^^^^^^^^^^^^^^^^^^^^PC***LapTop***Header^^^^^^^^^^^^^^^^^^^^*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**************Header***Tablets***Mobile****************/
 
@@ -79,16 +78,16 @@
         padding-left: 85%;
     }
 
-    .top-header {
+    .nav {
         display: none;
     }
 
-    .logo-container {
+    .logo_container {
         padding-left: 30%;
         position: relative;
     }
 
-    .logo-container h1 {
+    .logo_container h1 {
         padding-left: 30px;
         padding-right: 0px;
         display: block;
@@ -96,11 +95,3 @@
 }
 
 /**************Header***Tablets***Mobile****************/
-
-.carousel-container {
-    display: block;
-    width: 100%;
-    overflow: hidden;
-    align-content: center;
-    background-color: rgb(66, 66, 66);
-}
