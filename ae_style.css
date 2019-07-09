@@ -4,35 +4,70 @@
     box-sizing: border-box;
 }
 
-/**************PC***LapTop***Header****************/
-header{
+/**************PC**Header****************/
+header {
     display: flex;
     background-color: gray;
+    align-content: center;
+    height: 100px;
 }
 
 .logo_container {
     display: flex;
     flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
 }
 
-.logo_container h1{
+.logo_container h1 {
     font-family: 'Pacifico', sans-serif;
     color: red;
-    border-bottom: blue 10px;
+    line-height: 50px;
 }
 
-.logo_container h3{
+.logo_container h3 {
     font-family: 'Voltaire', sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 0;
     padding-left: 0;
-    border-top: blue 1px;
+    border-top: solid blue;
 }
+
 /*==================NAV=MENU=START==================*/
 
+nav {
+    margin: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
-/*^^^^^^^^^^^^^^^^^^^^PC***LapTop***Header^^^^^^^^^^^^^^^^^^^^*/
+ul {
+    padding-top: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding-bottom: 0px;
+}
+
+a {
+    font-family: 'Voltaire', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 0px 25px 0px 25px;
+}
+
+.sub-men {
+    display: none;
+}
+
 
 
 
