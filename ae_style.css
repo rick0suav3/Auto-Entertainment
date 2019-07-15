@@ -6,9 +6,7 @@
 }
 
 body {
-    background-image: url(img/PHLF_lg.jpg);
-    /*background-image: url(img/lndpgtable.jpg);*/
-    /*background-image: url(img/8BallFeature.jpg);*/
+    background-image: url(img/8BallFeature.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     object-fit: cover;
@@ -129,6 +127,11 @@ li:hover .loc-men {
 
 .loc-men ul li {
     text-align: left;
+}
+
+p {
+    font-family: 'Voltaire', sans-serif;
+    color: white
 }
 
 /**************Header***Tablets***Mobile****************/
