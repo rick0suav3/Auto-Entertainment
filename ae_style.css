@@ -8,8 +8,16 @@
 body {
     background-image: url(img/8BallFeature.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    object-fit: cover;
+    background-size: cover;
+    height: 100vh;
+    z-index: -10;
+}
+
+.overlay {
+    margin: 0;
+    padding: 0;
+    z-index: -5;
+    background-color: aqua;
 }
 
 /*====================PC=HEADER====================*/
@@ -178,28 +186,23 @@ li:hover .loc-men {
 .main_container {
     width: 90%;
     margin: 0 auto;
+    font-family: 'Voltaire', 'sansserif';
+    color: white;
+    padding-top: 10%;
 }
 
 .left_img {
     display: flex;
     position: relative;
-    padding: 30px;
-    background: rgba(255, 255, 255, .3)
+    padding: 50px;
+    background: rgba(255, 255, 255, .3);
+    box-sizing: border-box;
+    border-radius: 20px;
 }
 
-.right_img {
+/*.right_img {
     display: flex;
-    position: realtive;
+    position: relative;
     padding: 30px;
     background: rgba(255, 255, 255, .3)
-}
-
-.main_container p h1 {
-    font-family: 'Voltaire', 'sansserif';
-    color: white;
-}
-
-.main_container p h3 {
-    font-family: 'Voltaire', 'sansserif';
-    color: white;
-}
+}*/
