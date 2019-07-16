@@ -12,7 +12,8 @@ body {
     object-fit: cover;
 }
 
-/**************PC**Header****************/
+/*====================PC=HEADER====================*/
+
 header {
     display: flex;
     align-content: center;
@@ -129,12 +130,7 @@ li:hover .loc-men {
     text-align: left;
 }
 
-p {
-    font-family: 'Voltaire', sans-serif;
-    color: white
-}
-
-/**************Header***Tablets***Mobile****************/
+/*================HEADER=TABLETS=MOBILE================*/
 
 .burger {
     display: none;
@@ -177,27 +173,33 @@ p {
     }
 }
 
-/**************Header***Tablets***Mobile****************/
+/*=====================LOCATION=====================*/
 
-
-
-
-/*LOCATION LOCATION LOCATION LOCATION LOCATION*/
-
-.left_img{
-    display: flex;
+.main_container {
+    width: 90%;
+    margin: 0 auto;
 }
 
- .left_img h1{
+.left_img {
+    display: flex;
+    position: relative;
+    padding: 30px;
+    background: rgba(255, 255, 255, .3)
+}
+
+.right_img {
+    display: flex;
+    position: realtive;
+    padding: 30px;
+    background: rgba(255, 255, 255, .3)
+}
+
+.main_container p h1 {
     font-family: 'Voltaire', 'sansserif';
     color: white;
- }
+}
 
- .left_img h3{
+.main_container p h3 {
     font-family: 'Voltaire', 'sansserif';
     color: white;
- }
-
-
-
-
+}
